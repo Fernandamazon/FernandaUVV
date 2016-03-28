@@ -1,0 +1,35 @@
+div.card {
+  width: 200px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.header {
+   
+	background: url(https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/6/005/061/1da/0cc27a2.jpg);  
+	background-repeat: no-repeat;
+    color: white;
+    padding: 10px;
+    font-size: 40px;
+    height: 200px;    
+}
+
+div.container {
+    padding: 10px;
+}
+
+
+.zoom {
+    width: 200px;
+    height: 200px;
+    background: url(https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/6/005/061/1da/0cc27a2.jpg);
+    transition: width 2s;
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
+
+
+.zoom:hover {
+
+	transform:scale(1,2);
+}

@@ -1,0 +1,15 @@
+.zoom {
+    width: 100px;
+    height: 100px;
+    background: url(https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/6/005/061/1da/0cc27a2.jpg);
+    transition: width 2s, height 4s;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+.zoom:hover {
+    width: 200px;
+    height: 200px;
+}
+
